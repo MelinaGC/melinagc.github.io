@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.discount p{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 3px 20px;
+}
+header{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    display: inline-block;
+    position:relative;
+    top: -18px;
+    left: 10px;
+}
+
+
+.menu-options {
+    background-color: #001D2D;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;
+       
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-left: 10px;
+    
+    
+}
+
+
+.card{
+    left: 5%; 
+    margin: 5% 1%;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
+
+.content{
+    text-align: center;
+    background-color: #F3F3F3;
+    position: relative;
+    height: 350px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 20px 20px;
+}
+
+.content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: -22%;
+}
+.content h2{
+    padding-top: 85px;
+}
+
+.texto {
+    padding: 15px 20px 170px 20px;
+    text-align: left;
+    height: 100px;
+    
+}
+
+.a {
+    background-color:#00669F;
+    border-radius: 7px;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 50px; 
+    position: relative;
+   }
+
+.top-back { 
+    background-image: url('../img/bg-batman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; 
+}
+
+.top-back2 { 
+    background-image: url('../img/bg-wonderw.jpg');
+    background-repeat: no-repeat;
+    background-size: 160%;
+    height: 200px; 
+}
+
+.top-back3 { 
+    background-image: url('../img/bg-superman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; 
+}
+
+.top-back4 { 
+    background-image: url('../img/bg-harley.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; 
+}
+
+.top-card {
+    border-radius: 20px 20px 0 0;
+}
+
+.fa-heart {
+    color: red;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.fa-plus {
+    background-color: #00669F;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color:#F3F3F3;
+    font-size: 20px;
+    padding-top:16px;
+    position:fixed;
+    bottom:50%;
+    right: 10px;
+    transition: background-color 450ms;
+}
+
+footer{
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:#F3F3F3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.fa-plus:hover{
+    background-color:#001D2D;
+}
+

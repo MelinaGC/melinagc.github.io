@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --gray: #222222;
+    --green: #4acf93;
+    --lightWhite: #f3f3f3;
+}
+  
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+      background-image: url("../img/fondoimagen.png");
+      background-size: cover;
+}
+ 
+header div{
+    color: var(--lightWhite);
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header div img{
+    border-radius: 50%;
+}
+
+header div h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+main{
+    min-height: calc(100vh - 260px - 15px);
+}
+
+main div{
+    color: var(--lightWhite);
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div h2{
+    font-weight: lighter;
+    padding: 0px 15px;
+}
+
+main ul{
+    color: grey;
+    list-style: none;
+    font-size: 25px;
+    margin: 0px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+main ul li{
+    background-color: var( --lightWhite);
+    border-radius: 2%;
+    width: 30%;
+    padding: 5%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+
+
+main ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a6adaa;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #a6adaa;
+    color: var(--lightWhite);
+    text-align: center;
+    padding: 15px;
+}
+
+main ul li:hover{
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:  480px) {
+    header div{
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    header div h1{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    header div img{
+        height: 100px;
+    }
+
+    main ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main ul li{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+}
