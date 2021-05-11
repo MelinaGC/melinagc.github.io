@@ -1,0 +1,63 @@
+nav, ul {
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.texto {
+    color: black;
+    text-decoration: none;
+}
+
+.imagen-fondo {
+    /*Background-image: gradient, url de la imagen
+*/
+    background-image:url("../img/lemon-pie.png");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    margin-top: 40px;
+    color:white;
+    position:relative;
+        
+}
+
+.transparencia {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 100%;
+
+}
+
+h1 {
+    position:relative;
+    top: 150px;
+    font-size: 60px;
+}
+
+p {
+    position:relative;
+    top: 150px;
+    font-size: 20px;
+}
+
+.cursiva {
+    font-style: italic;
+}
+   
+.espacio{
+    padding-left: 30px;
+}
+
+.color-naranja{
+    color:rgba(255, 136, 0, 0.897);
+}
+
+footer>p {
+    text-align: center;
+    background-color: rgb(168, 166, 168);
+    padding: 20px;
+   }
